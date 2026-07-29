@@ -1,0 +1,35 @@
+galaxy_info:
+  role_name: al2023_cis
+  namespace: stigready
+  description: Ansible role for Amazon Linux 2023 CIS Benchmark hardening (cis-l1,
+    cis-l2). ComplianceAsCode/SSG remediation, OpenSCAP-verified in StigForge CI.
+    Install with ansible-galaxy or git.
+  license: BSD-3-Clause
+  min_ansible_version: '2.16'
+  platforms:
+  - name: Amazon
+    versions:
+    - '2023'
+  author: stigready
+  company: StigReady
+  galaxy_tags:
+  - al2023
+  - amazon
+  - amazon-linux
+  - ansible
+  - ansible-role
+  - aws
+  - cis
+  - cis-benchmark
+  - cis-hardening
+  - compliance
+  - devsecops
+  - ec2
+  - hardening
+  - infrastructure
+  - openscap
+  - security
+  - stigforge
+  github_branch: main
+  issue_tracker_url: https://github.com/stigready/al2023-cis/issues
+dependencies: []
