@@ -3,7 +3,7 @@
   "role": "al2023_cis",
   "profile": "cis-l1",
   "product": "al2023",
-  "timestamp": "20260729T082601Z",
+  "timestamp": "20260729T100447Z",
   "outcome": "success",
   "matrix": {
     "role": "al2023_cis",
@@ -61,13 +61,13 @@
       "name": "OpenSCAP ARF",
       "desc": "Asset Reporting Format \u2014 POA&M source (stigready parity)",
       "local": "arf.xml",
-      "bytes": 15191760
+      "bytes": 15238684
     },
     {
       "name": "OpenSCAP report (HTML)",
       "desc": "human-readable SSG scorecard",
       "local": "report.html",
-      "bytes": 1697276
+      "bytes": 1697546
     },
     {
       "name": "OpenSCAP score line",
@@ -85,7 +85,7 @@
       "name": "Ansible apply log",
       "desc": "role application inside verify container",
       "local": "ansible.log",
-      "bytes": 212998
+      "bytes": 212990
     },
     {
       "name": "Ansible exit code",
