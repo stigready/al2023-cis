@@ -2,7 +2,7 @@
 
 **Ansible hardening role** for **Amazon Linux 2023** (CIS Benchmark). Suitable for playbooks, Packer/Ansible provisioners, and golden-image pipelines. Search keywords: `al2023`, `amazon`, `amazon-linux`, `ansible`, `ansible-role`, `aws`, `cis`, `cis-benchmark`, `cis-hardening`, `compliance`, `devsecops`, `ec2`, `hardening`, `infrastructure`.
 
-StigForge-exported Ansible role **`al2023_cis`** · release **`0.2.4-private-review`**.
+StigForge-exported Ansible role **`al2023_cis`** · release **`0.2.4`**.
 Matrix cell status: **`green`**.
 
 ## Install (Ansible Galaxy)
@@ -13,7 +13,7 @@ lives under `compliance/` and is not loaded when the role runs.
 From **Ansible Galaxy** (after import; namespace `stigready`):
 
 ```bash
-ansible-galaxy role install stigready.al2023_cis,0.2.4-private-review
+ansible-galaxy role install stigready.al2023_cis,0.2.4
 ```
 
 From **GitHub** (public):
@@ -23,7 +23,7 @@ From **GitHub** (public):
 roles:
   - src: https://github.com/stigready/al2023-cis
     scm: git
-    version: v0.2.4-private-review   # or an immutable commit SHA
+    version: v0.2.4   # or an immutable commit SHA
     name: al2023_cis
 ```
 
@@ -38,10 +38,10 @@ Evidence was produced by **docker verify + OpenSCAP** on the factory CI run cite
 
 | Profile | Score | Floor | Gate | Ansible | Evidence tested (UTC) |
 |---|---:|---:|---|---|---|
-| `cis-l1` | **96.97%** ✓ | 90.0% | PASS ✓ | rc 0 | 20260729T100447Z |
-| `cis-l2` | **97.01%** ✓ | 90.0% | PASS ✓ | rc 0 | 20260729T100653Z |
+| `cis-l1` | **96.97%** ✓ | 90.0% | PASS ✓ | rc 0 | 20260729T223619Z |
+| `cis-l2` | **97.01%** ✓ | 90.0% | PASS ✓ | rc 0 | 20260729T223847Z |
 
-Full artifacts per profile: `compliance/releases/0.2.4-private-review/<profile>/` (`score.json`, `results.xml`, `report.html`, `evidence.json`, `evidence-report.html`, `poam.md`).
+Full artifacts per profile: `compliance/releases/0.2.4/<profile>/` (`score.json`, `results.xml`, `report.html`, `evidence.json`, `evidence-report.html`, `poam.md`).
 
 ## Reports & review
 
@@ -54,7 +54,7 @@ Full artifacts per profile: `compliance/releases/0.2.4-private-review/<profile>/
 Re-run OpenSCAP in Docker and compare to this release's evidence:
 
 ```bash
-make prove RELEASE=0.2.4-private-review
+make prove RELEASE=0.2.4
 ```
 
 Or score your own `results.xml`: see **[compliance/README.md](compliance/README.md)**.
@@ -66,7 +66,7 @@ Or score your own `results.xml`: see **[compliance/README.md](compliance/README.
 
 ## Factory
 
-- Monorepo: [stigready/stigforge](https://github.com/stigready/stigforge) @ `c481b47d629f5bc2357a86a933aa6f94f5245fce`
-- CI run: https://github.com/stigready/stigforge/actions/runs/30440754045
+- Monorepo: [stigready/stigforge](https://github.com/stigready/stigforge) @ `7f7cafc85a392bf2a7eb04f1b979185dbcdf5530`
+- CI run: https://github.com/stigready/stigforge/actions/runs/30496236357
 - Catalog: [https://stigready.com/#stigforge](https://stigready.com/#stigforge)
 
