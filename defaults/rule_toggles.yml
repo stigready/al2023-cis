@@ -102,6 +102,7 @@ al2023cis_configure_ssh_crypto_policy: true
 al2023cis_coredump_disable_backtraces: true
 al2023cis_coredump_disable_storage: true
 al2023cis_dir_perms_world_writable_sticky_bits: true
+al2023cis_directory_permissions_var_log_audit: true
 al2023cis_disable_host_auth: true
 al2023cis_ensure_gpgcheck_globally_activated: true
 al2023cis_file_at_deny_not_exist: true

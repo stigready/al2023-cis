@@ -1,4 +1,4 @@
-# Review package — `al2023_cis` v0.2.4
+# Review package — `al2023_cis` v0.3.0
 
 Product owner review (Phase B/C pilot). **Not** a StigApplied cutover signal.
 
@@ -6,14 +6,14 @@ Product owner review (Phase B/C pilot). **Not** a StigApplied cutover signal.
 
 ### Profile `cis-l1`
 - **Score:** 96.97% (floor 90.0%) · gate **PASS**
-- **Evidence tested:** 20260729T223619Z
-- [evidence.json](compliance/releases/0.2.4/cis-l1/evidence.json) · [evidence-report.html](compliance/releases/0.2.4/cis-l1/evidence-report.html)
-- [score.json](compliance/releases/0.2.4/cis-l1/score.json) · [report.html](compliance/releases/0.2.4/cis-l1/report.html) · [poam.md](compliance/releases/0.2.4/cis-l1/poam.md)
+- **Evidence tested:** 20260912T135819Z
+- [evidence.json](compliance/releases/0.3.0/cis-l1/evidence.json) · [evidence-report.html](compliance/releases/0.3.0/cis-l1/evidence-report.html)
+- [score.json](compliance/releases/0.3.0/cis-l1/score.json) · [results.xml](compliance/releases/0.3.0/cis-l1/results.xml) · [poam.md](compliance/releases/0.3.0/cis-l1/poam.md)
 
 ### Profile `cis-l2`
 - **Score:** 97.01% (floor 90.0%) · gate **PASS**
-- **Evidence tested:** 20260729T223847Z
-- [evidence.json](compliance/releases/0.2.4/cis-l2/evidence.json) · [evidence-report.html](compliance/releases/0.2.4/cis-l2/evidence-report.html)
-- [score.json](compliance/releases/0.2.4/cis-l2/score.json) · [report.html](compliance/releases/0.2.4/cis-l2/report.html) · [poam.md](compliance/releases/0.2.4/cis-l2/poam.md)
+- **Evidence tested:** 20260912T140019Z
+- [evidence.json](compliance/releases/0.3.0/cis-l2/evidence.json) · [evidence-report.html](compliance/releases/0.3.0/cis-l2/evidence-report.html)
+- [score.json](compliance/releases/0.3.0/cis-l2/score.json) · [results.xml](compliance/releases/0.3.0/cis-l2/results.xml) · [poam.md](compliance/releases/0.3.0/cis-l2/poam.md)
 
-- CI pipeline: https://github.com/stigready/stigforge/actions/runs/30496236357
+- CI pipeline: https://github.com/stigready/stigforge/actions/runs/34693316989
