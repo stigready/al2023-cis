@@ -32,7 +32,6 @@ al2023cis_accounts_users_netrc_file_permissions: true
 al2023cis_aide_build_database: true
 al2023cis_aide_check_audit_tools: true
 al2023cis_aide_periodic_cron_checking: true
-al2023cis_always: true
 al2023cis_audit_rules_dac_modification_chmod: true
 al2023cis_audit_rules_dac_modification_chown: true
 al2023cis_audit_rules_dac_modification_fchmod: true
