@@ -53,5 +53,10 @@
     "version": "0.3.32",
     "role": "al2023_cis",
     "matrix_status": "green"
+  },
+  {
+    "version": "0.3.33",
+    "role": "al2023_cis",
+    "matrix_status": "green"
   }
 ]
